@@ -18,14 +18,7 @@ namespace ListViewTrain {
 		}
 
 		public void process() {
-			//userList = new List<DataModel>();
-
-			//string[] image = { "http://i.imgur.com/DvpvklR.png", "http://i.imgur.com/DvpvklR.png", "http://i.imgur.com/DvpvklR.png" };
-			//string[] title = { "test 1", "test 2", "test 3", };
-			//string[] des = { "des 1", "des 2", "des 3", };
-
-			//userList = image.Split(',').ToList();
-
+			
 			userList = new List<DataModel>();
 
 			userList.Add(new DataModel() {
