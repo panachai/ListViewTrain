@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ListViewTrain</RootNamespace>
     <AssemblyName>ListViewTrain</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -70,6 +70,7 @@
     <Compile Include="CustomListView.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\DataModel.cs" />
+    <Compile Include="Helper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -89,6 +90,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\drawable\baby.png" />
+    <AndroidResource Include="Resources\values\Dimens.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Colors.xml" />

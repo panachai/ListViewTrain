@@ -775,32 +775,32 @@ namespace ListViewTrain
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f070041
-			public const int abc_background_cache_hint_selector_material_dark = 2131165249;
+			// aapt resource value: 0x7f070044
+			public const int abc_background_cache_hint_selector_material_dark = 2131165252;
 			
-			// aapt resource value: 0x7f070042
-			public const int abc_background_cache_hint_selector_material_light = 2131165250;
+			// aapt resource value: 0x7f070045
+			public const int abc_background_cache_hint_selector_material_light = 2131165253;
 			
-			// aapt resource value: 0x7f070043
-			public const int abc_color_highlight_material = 2131165251;
+			// aapt resource value: 0x7f070046
+			public const int abc_color_highlight_material = 2131165254;
 			
 			// aapt resource value: 0x7f070004
 			public const int abc_input_method_navigation_guard = 2131165188;
 			
-			// aapt resource value: 0x7f070044
-			public const int abc_primary_text_disable_only_material_dark = 2131165252;
-			
-			// aapt resource value: 0x7f070045
-			public const int abc_primary_text_disable_only_material_light = 2131165253;
-			
-			// aapt resource value: 0x7f070046
-			public const int abc_primary_text_material_dark = 2131165254;
-			
 			// aapt resource value: 0x7f070047
-			public const int abc_primary_text_material_light = 2131165255;
+			public const int abc_primary_text_disable_only_material_dark = 2131165255;
 			
 			// aapt resource value: 0x7f070048
-			public const int abc_search_url_text = 2131165256;
+			public const int abc_primary_text_disable_only_material_light = 2131165256;
+			
+			// aapt resource value: 0x7f070049
+			public const int abc_primary_text_material_dark = 2131165257;
+			
+			// aapt resource value: 0x7f07004a
+			public const int abc_primary_text_material_light = 2131165258;
+			
+			// aapt resource value: 0x7f07004b
+			public const int abc_search_url_text = 2131165259;
 			
 			// aapt resource value: 0x7f070005
 			public const int abc_search_url_text_normal = 2131165189;
@@ -811,11 +811,11 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f070007
 			public const int abc_search_url_text_selected = 2131165191;
 			
-			// aapt resource value: 0x7f070049
-			public const int abc_secondary_text_material_dark = 2131165257;
+			// aapt resource value: 0x7f07004c
+			public const int abc_secondary_text_material_dark = 2131165260;
 			
-			// aapt resource value: 0x7f07004a
-			public const int abc_secondary_text_material_light = 2131165258;
+			// aapt resource value: 0x7f07004d
+			public const int abc_secondary_text_material_light = 2131165261;
 			
 			// aapt resource value: 0x7f070008
 			public const int accent_material_dark = 2131165192;
@@ -874,6 +874,9 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f070003
 			public const int cardview_shadow_start_color = 2131165187;
 			
+			// aapt resource value: 0x7f070041
+			public const int dark_gray = 2131165249;
+			
 			// aapt resource value: 0x7f070016
 			public const int dim_foreground_disabled_material_dark = 2131165206;
 			
@@ -891,6 +894,9 @@ namespace ListViewTrain
 			
 			// aapt resource value: 0x7f07001b
 			public const int foreground_material_light = 2131165211;
+			
+			// aapt resource value: 0x7f070043
+			public const int green_light = 2131165251;
 			
 			// aapt resource value: 0x7f07001c
 			public const int highlighted_text_material_dark = 2131165212;
@@ -994,17 +1000,20 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f07003b
 			public const int switch_thumb_disabled_material_light = 2131165243;
 			
-			// aapt resource value: 0x7f07004b
-			public const int switch_thumb_material_dark = 2131165259;
+			// aapt resource value: 0x7f07004e
+			public const int switch_thumb_material_dark = 2131165262;
 			
-			// aapt resource value: 0x7f07004c
-			public const int switch_thumb_material_light = 2131165260;
+			// aapt resource value: 0x7f07004f
+			public const int switch_thumb_material_light = 2131165263;
 			
 			// aapt resource value: 0x7f07003c
 			public const int switch_thumb_normal_material_dark = 2131165244;
 			
 			// aapt resource value: 0x7f07003d
 			public const int switch_thumb_normal_material_light = 2131165245;
+			
+			// aapt resource value: 0x7f070042
+			public const int white = 2131165250;
 			
 			static Color()
 			{
@@ -1220,6 +1229,18 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f080007
 			public const int abc_text_size_title_material_toolbar = 2131230727;
 			
+			// aapt resource value: 0x7f080060
+			public const int button_long = 2131230816;
+			
+			// aapt resource value: 0x7f080061
+			public const int button_medium = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int button_short = 2131230818;
+			
+			// aapt resource value: 0x7f08005f
+			public const int button_verylong = 2131230815;
+			
 			// aapt resource value: 0x7f080000
 			public const int cardview_compat_inset_shadow = 2131230720;
 			
@@ -1235,6 +1256,12 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f080047
 			public const int disabled_alpha_material_light = 2131230791;
 			
+			// aapt resource value: 0x7f080063
+			public const int edittext_medium = 2131230819;
+			
+			// aapt resource value: 0x7f08006a
+			public const int fragment_header_height = 2131230826;
+			
 			// aapt resource value: 0x7f080048
 			public const int highlight_alpha_material_colored = 2131230792;
 			
@@ -1244,6 +1271,54 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f08004a
 			public const int highlight_alpha_material_light = 2131230794;
 			
+			// aapt resource value: 0x7f080064
+			public const int icon_margin = 2131230820;
+			
+			// aapt resource value: 0x7f080065
+			public const int icon_medium = 2131230821;
+			
+			// aapt resource value: 0x7f080067
+			public const int listview_header_height = 2131230823;
+			
+			// aapt resource value: 0x7f080068
+			public const int listview_pending_height = 2131230824;
+			
+			// aapt resource value: 0x7f080069
+			public const int listview_report_height = 2131230825;
+			
+			// aapt resource value: 0x7f080055
+			public const int margin_beforemaxlong = 2131230805;
+			
+			// aapt resource value: 0x7f080053
+			public const int margin_long = 2131230803;
+			
+			// aapt resource value: 0x7f080056
+			public const int margin_maxlong = 2131230806;
+			
+			// aapt resource value: 0x7f080051
+			public const int margin_medium = 2131230801;
+			
+			// aapt resource value: 0x7f08004e
+			public const int margin_mostshort = 2131230798;
+			
+			// aapt resource value: 0x7f080052
+			public const int margin_prettylong = 2131230802;
+			
+			// aapt resource value: 0x7f080050
+			public const int margin_short = 2131230800;
+			
+			// aapt resource value: 0x7f080054
+			public const int margin_verylong = 2131230804;
+			
+			// aapt resource value: 0x7f080057
+			public const int margin_verymaxlong = 2131230807;
+			
+			// aapt resource value: 0x7f08004f
+			public const int margin_veryshort = 2131230799;
+			
+			// aapt resource value: 0x7f08006d
+			public const int material_drawer_item_primary_text = 2131230829;
+			
 			// aapt resource value: 0x7f08004b
 			public const int notification_large_icon_height = 2131230795;
 			
@@ -1252,6 +1327,36 @@ namespace ListViewTrain
 			
 			// aapt resource value: 0x7f08004d
 			public const int notification_subtext_size = 2131230797;
+			
+			// aapt resource value: 0x7f08006b
+			public const int tab_height = 2131230827;
+			
+			// aapt resource value: 0x7f08006c
+			public const int tab_height_mini = 2131230828;
+			
+			// aapt resource value: 0x7f08005d
+			public const int text_heading = 2131230813;
+			
+			// aapt resource value: 0x7f08005b
+			public const int text_large = 2131230811;
+			
+			// aapt resource value: 0x7f08005e
+			public const int text_largeheading = 2131230814;
+			
+			// aapt resource value: 0x7f08005a
+			public const int text_medium = 2131230810;
+			
+			// aapt resource value: 0x7f080059
+			public const int text_small = 2131230809;
+			
+			// aapt resource value: 0x7f08005c
+			public const int text_subheading = 2131230812;
+			
+			// aapt resource value: 0x7f080058
+			public const int text_verysmall = 2131230808;
+			
+			// aapt resource value: 0x7f080066
+			public const int toolsbar_height = 2131230822;
 			
 			static Dimension()
 			{

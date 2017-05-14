@@ -24,7 +24,7 @@ namespace ListViewTrain {
 			userList.Add(new DataModel() {
 				Image = "http://i.imgur.com/DvpvklR.png",
 				Title = "รูปที่ 2",
-				Des = "เทสภาษาไทย"
+				Des = "เทสภาษาไทย เทสระยะความยาวว่าจะเป็นอย่างไร"
 			});
 
 			userList.Add(new DataModel() {
