@@ -2,23 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:gravity="center_vertical"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:weightSum="10"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp">
+    android:background="@color/line"
+    android:paddingBottom="1sp">
     <android.support.v7.widget.CardView
+        android:paddingTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardElevation="4dp"
-        card_view:cardCornerRadius="1dp">
+        card_view:cardCornerRadius="1dp"
+        android:paddingBottom="@dimen/margin_medium">
     <!--#404040 -->
         <LinearLayout
+            android:background="@color/white"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:gravity="center_vertical">
             <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
@@ -27,14 +30,13 @@
                 <ImageView
                     android:id="@+id/imvShow"
                     android:layout_width="wrap_content"
-                    android:layout_height="80dp" />
+                    android:layout_height="50dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
-                android:layout_weight="2"
-                android:layout_marginTop="@dimen/margin_short">
+                android:layout_weight="2">
                 <TextView
                     android:id="@+id/txtTitle"
                     android:layout_width="match_parent"
@@ -42,7 +44,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:text="Text"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_heading"
                     android:textColor="@color/green_light"
                     android:textStyle="bold" />
                 <TextView
@@ -52,14 +54,9 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:text="Text"
-                    android:textSize="18sp"
-                    android:textColor="@color/white" />
+                    android:textSize="@dimen/text_subheading"
+                    android:textColor="@color/black_3" />
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
-    <View
-        android:layout_width="wrap_content"
-        android:paddingBottom="@dimen/text_medium"
-        android:layout_height="wrap_content"
-        android:background="@color/white" />
 </LinearLayout>

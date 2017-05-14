@@ -18,18 +18,30 @@ namespace ListViewTrain {
 		}
 
 		public void process() {
-			
+
 			userList = new List<DataModel>();
 
 			userList.Add(new DataModel() {
 				Image = "http://i.imgur.com/DvpvklR.png",
-				Title = "รูปที่ 2",
-				Des = "เทสภาษาไทย เทสระยะความยาวว่าจะเป็นอย่างไร"
+				Title = "รูปที่",
+				Des = "เทสภาษาไทย"
 			});
 
 			userList.Add(new DataModel() {
-	Image = "http://i.imgur.com/DvpvklR.png",
-				Title = "รูปที่ 1",
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
 				Des = "ทำอะไรได้บ้าง"
 			});
 

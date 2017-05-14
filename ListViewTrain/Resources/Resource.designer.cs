@@ -775,32 +775,32 @@ namespace ListViewTrain
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f070044
-			public const int abc_background_cache_hint_selector_material_dark = 2131165252;
+			// aapt resource value: 0x7f070047
+			public const int abc_background_cache_hint_selector_material_dark = 2131165255;
 			
-			// aapt resource value: 0x7f070045
-			public const int abc_background_cache_hint_selector_material_light = 2131165253;
+			// aapt resource value: 0x7f070048
+			public const int abc_background_cache_hint_selector_material_light = 2131165256;
 			
-			// aapt resource value: 0x7f070046
-			public const int abc_color_highlight_material = 2131165254;
+			// aapt resource value: 0x7f070049
+			public const int abc_color_highlight_material = 2131165257;
 			
 			// aapt resource value: 0x7f070004
 			public const int abc_input_method_navigation_guard = 2131165188;
 			
-			// aapt resource value: 0x7f070047
-			public const int abc_primary_text_disable_only_material_dark = 2131165255;
-			
-			// aapt resource value: 0x7f070048
-			public const int abc_primary_text_disable_only_material_light = 2131165256;
-			
-			// aapt resource value: 0x7f070049
-			public const int abc_primary_text_material_dark = 2131165257;
-			
 			// aapt resource value: 0x7f07004a
-			public const int abc_primary_text_material_light = 2131165258;
+			public const int abc_primary_text_disable_only_material_dark = 2131165258;
 			
 			// aapt resource value: 0x7f07004b
-			public const int abc_search_url_text = 2131165259;
+			public const int abc_primary_text_disable_only_material_light = 2131165259;
+			
+			// aapt resource value: 0x7f07004c
+			public const int abc_primary_text_material_dark = 2131165260;
+			
+			// aapt resource value: 0x7f07004d
+			public const int abc_primary_text_material_light = 2131165261;
+			
+			// aapt resource value: 0x7f07004e
+			public const int abc_search_url_text = 2131165262;
 			
 			// aapt resource value: 0x7f070005
 			public const int abc_search_url_text_normal = 2131165189;
@@ -811,11 +811,11 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f070007
 			public const int abc_search_url_text_selected = 2131165191;
 			
-			// aapt resource value: 0x7f07004c
-			public const int abc_secondary_text_material_dark = 2131165260;
+			// aapt resource value: 0x7f07004f
+			public const int abc_secondary_text_material_dark = 2131165263;
 			
-			// aapt resource value: 0x7f07004d
-			public const int abc_secondary_text_material_light = 2131165261;
+			// aapt resource value: 0x7f070050
+			public const int abc_secondary_text_material_light = 2131165264;
 			
 			// aapt resource value: 0x7f070008
 			public const int accent_material_dark = 2131165192;
@@ -834,6 +834,12 @@ namespace ListViewTrain
 			
 			// aapt resource value: 0x7f07000d
 			public const int background_material_light = 2131165197;
+			
+			// aapt resource value: 0x7f070045
+			public const int black = 2131165253;
+			
+			// aapt resource value: 0x7f070046
+			public const int black_3 = 2131165254;
 			
 			// aapt resource value: 0x7f070040
 			public const int blue_verydark = 2131165248;
@@ -895,8 +901,8 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f07001b
 			public const int foreground_material_light = 2131165211;
 			
-			// aapt resource value: 0x7f070043
-			public const int green_light = 2131165251;
+			// aapt resource value: 0x7f070044
+			public const int green_light = 2131165252;
 			
 			// aapt resource value: 0x7f07001c
 			public const int highlighted_text_material_dark = 2131165212;
@@ -912,6 +918,9 @@ namespace ListViewTrain
 			
 			// aapt resource value: 0x7f07003e
 			public const int infobar = 2131165246;
+			
+			// aapt resource value: 0x7f070043
+			public const int line = 2131165251;
 			
 			// aapt resource value: 0x7f070020
 			public const int material_blue_grey_800 = 2131165216;
@@ -1000,11 +1009,11 @@ namespace ListViewTrain
 			// aapt resource value: 0x7f07003b
 			public const int switch_thumb_disabled_material_light = 2131165243;
 			
-			// aapt resource value: 0x7f07004e
-			public const int switch_thumb_material_dark = 2131165262;
+			// aapt resource value: 0x7f070051
+			public const int switch_thumb_material_dark = 2131165265;
 			
-			// aapt resource value: 0x7f07004f
-			public const int switch_thumb_material_light = 2131165263;
+			// aapt resource value: 0x7f070052
+			public const int switch_thumb_material_light = 2131165266;
 			
 			// aapt resource value: 0x7f07003c
 			public const int switch_thumb_normal_material_dark = 2131165244;
