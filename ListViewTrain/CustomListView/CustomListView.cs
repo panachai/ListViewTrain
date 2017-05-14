@@ -36,7 +36,7 @@ namespace ListViewTrain {
 			ViewHolder viewHolder;
 
 			if (view == null) {       //activity.LayoutInflater.Inflate(Android.Resource.Layout.listview_row, null);
-				view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.listview_row, parent, false);
+				view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.listview_row2, parent, false);
 				viewHolder = new ViewHolder();
 
 				viewHolder.imvShow = view.FindViewById<ImageView>(Resource.Id.imvShow);
