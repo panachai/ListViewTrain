@@ -45,6 +45,36 @@ namespace ListViewTrain {
 				Des = "ทำอะไรได้บ้าง"
 			});
 
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
+			userList.Add(new DataModel() {
+				Image = "http://i.imgur.com/DvpvklR.png",
+				Title = "รูปที่",
+				Des = "ทำอะไรได้บ้าง"
+			});
+
 			listShow = FindViewById<ListView>(Resource.Id.lvShow);
 
 
